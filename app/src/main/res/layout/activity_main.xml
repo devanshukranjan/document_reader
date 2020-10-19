@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#4B4B4C"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:logo="@drawable/download"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:logoDescription="@string/hide_bottom_view_on_scroll_behavior"
+        app:title="Office Suite"
+        app:titleTextAppearance="@string/hide_bottom_view_on_scroll_behavior"
+        app:titleMarginStart="15dp"
+        app:titleTextColor="#F1EBEB"
+        />
+
+
+
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#353535" />
+
+
+</LinearLayout>
